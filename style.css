@@ -17,33 +17,27 @@ body {
 	background-color: #eee0;
 	color: #10c9c3;
 }
-.banner {
-	position: absolute;
-	z-index: 1;
-	bottom: 450px;
-}
-.bannner-position {
-	position: absolute;
-}
-.img-banner {
+nav {
 	position: relative;
-	z-index: -1;
-	top: -50px;
-	left: 0px;
-	width: 100%;
 }
-.banner-position > .h1-title {
-	font: 600 38px Montserrat;
+.banner-header {
+	position: relative;
+	background-image: url(images/banner.jpg);
+	background-size: 100% 100%;
+	/*background-position: 10% 30%;*/
 }
-main > .container-fluid:nth-child(1) .col-md-5 {
-	padding: 0;
+.banner {
+	padding: 220px 0;
 }
-.banner-position > .description {
+.banner > .h1-title {
+	font: 600 36px Montserrat;
+}
+.banner .description {
 	font: 500 18px "Nunito Sans";
 	color: #787878;
 	margin: 10px 5px;
 }
-.banner-position > .btn-contact {
+.banner .btn-contact {
 	background-color: #10c9c3;
 	border-radius: 0;
 	color: #fff;
@@ -51,7 +45,7 @@ main > .container-fluid:nth-child(1) .col-md-5 {
 	padding: 20px 50px;
 	margin: 10px 5px;
 }
-.banner-position > .btn-contact:hover {
+.banner .btn-contact:hover {
 	background-color: #11aca7;
 }
 .about > .signature > img {
@@ -59,7 +53,8 @@ main > .container-fluid:nth-child(1) .col-md-5 {
 	height: 100px;
 }
 .about {
-	margin-bottom: 50px;
+	position: relative;
+	margin: 50px 0;
 }
 .about > .title-about {
 	font: 600 30px Montserrat;

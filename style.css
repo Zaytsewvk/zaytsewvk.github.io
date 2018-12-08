@@ -62,3 +62,41 @@ nav {
 .about > .description-about {
 	font: 400 16px "Nunito Sans";
 }
+.personal-qualities > div > .progress {
+	height: 3px;
+	background-color: #b8b8b8;
+	border-radius: 0;	
+}
+.progress > .progress-bar {
+	background-color: #10c9c3;
+	background-image: none;
+}
+.banner-personal-qualities {
+	position: fixed;
+	top: 0;
+	right: 0;
+	background: #f3f3f3 url(images/services.jpg);
+	background-size: 52%;
+	background-position: 100% 50%;
+	position: relative;
+	background-repeat: no-repeat;
+}
+.personal-qualities > h2 {
+	font: 600 34px "Montserrat";
+}
+.personal-qualities {
+	margin: 70px 0;
+}
+.pq-title {
+	font: 600 16px "Montserrat";
+	margin: 5px 0;
+}
+.pq-title-top {
+	margin-top: 25px;
+}
+.pq-title > span {
+	margin: 0 15px;
+}
+.progress {
+	margin-bottom: 25px;
+}

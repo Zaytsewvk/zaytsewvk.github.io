@@ -22,12 +22,12 @@ nav {
 }
 .banner-header {
 	position: relative;
-	background-image: url(images/banner.jpg);
+	background-image: url(images/banner1.jpg);
 	background-size: 100% 100%;
 	/*background-position: 10% 30%;*/
 }
 .banner {
-	padding: 220px 0;
+	padding: 100px 0 342px 0;
 }
 .banner > .h1-title {
 	font: 600 36px Montserrat;

@@ -100,3 +100,30 @@ nav {
 .progress {
 	margin-bottom: 25px;
 }
+.aim-banner {
+	background-color: #10c9c3;
+}
+.aim {
+	padding: 20px;
+}
+.target, .career-growth, .wage {
+	position: relative;
+	padding: 5px 0;
+	display: inline-block;
+	margin-right: 50px; 
+}
+.target {
+	margin-right: 200px;
+}
+.target-img, .career-growth-img, .wage-img {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+}
+.target > p, .career-growth > p, .wage > p {
+	font: 500 16px Montserrat;
+	color: #fff;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 5px;
+}

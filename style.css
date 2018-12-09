@@ -112,9 +112,6 @@ nav {
 	display: inline-block;
 	margin-right: 50px; 
 }
-.target {
-	margin-right: 200px;
-}
 .target-img, .career-growth-img, .wage-img {
 	width: 50px;
 	height: 50px;
@@ -171,4 +168,41 @@ nav {
 }
 .footer-background {
 	background-color: #000;
+}
+.footer {
+	padding: 40px 0;
+}
+.footer-title {
+	margin: 0;
+	color: #fff;
+	font: 500 18px "Montserrat";
+	margin-bottom: 5px; 
+}
+.footer-description {
+	color: #8f8f8f;
+	font: 400 15px "Nunito Sans";
+	margin: 5px 0;
+}
+.footer-mail {
+	margin: 0;
+}
+.footer-phone {
+	margin: 5px 0;
+}
+.footer-title-link {
+	margin-top: 0;
+	font: 500 16px "Nunito Sans";
+}
+.social-icons img {
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+}
+.social-icons > a {
+	float: left;
+}
+.fix:after {
+	content: "";
+	display: block;
+	clear: both;
 }

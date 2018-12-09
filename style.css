@@ -10,32 +10,40 @@ body {
 	height: 25px;
 }
 .nav > li > a {
-	font: 600 16px Montserrat;
+	font: 500 15px Montserrat;
 	color: #000;
 }
 .nav > li > a:hover, .nav>li>a:focus {
 	background-color: #eee0;
-	color: #10c9c3;
+	color: #008682;
+	transition: 0.2s all;
 }
 nav {
 	position: relative;
 }
+.nav > li > a {
+	padding: 15px 10px;
+}
 .banner-header {
 	position: relative;
-	background-image: url(images/banner1.jpg);
+	background-image: url(images/banner.jpg);
 	background-size: 100% 100%;
-	/*background-position: 10% 30%;*/
+	/*background-position: 10% 40%;*/
 }
 .banner {
-	padding: 100px 0 342px 0;
+	padding: 160px 0 440px 50px;
 }
 .banner > .h1-title {
-	font: 600 36px Montserrat;
+	font: 600 40px Montserrat;
+	letter-spacing: 4px;
+	text-shadow: 6px 4px 3px #666;
 }
 .banner .description {
-	font: 500 18px "Nunito Sans";
-	color: #787878;
-	margin: 10px 5px;
+	font: 500 24px "Nunito Sans";
+	color: #333;
+	padding-left: 2px;
+	text-shadow: 6px 4px 3px #666;
+	letter-spacing: 3px;
 }
 .banner .btn-contact {
 	background-color: #10c9c3;
@@ -43,10 +51,14 @@ nav {
 	color: #fff;
 	font: 600 12px "Montserrat";
 	padding: 20px 50px;
-	margin: 10px 5px;
+	margin: 10px 2px;
+}
+.btn-contact-us {
+	color: #fff;
 }
 .banner .btn-contact:hover {
 	background-color: #11aca7;
+	transition: 0.3s all;
 }
 .about > .signature > img {
 	width: 250px;
@@ -181,17 +193,13 @@ nav {
 .footer-description {
 	color: #8f8f8f;
 	font: 400 15px "Nunito Sans";
-	margin: 5px 0;
-}
-.footer-mail {
-	margin: 0;
-}
-.footer-phone {
-	margin: 5px 0;
 }
 .footer-title-link {
+	display: inline-block;
 	margin-top: 0;
-	font: 500 16px "Nunito Sans";
+	font: 500 24px "Nunito Sans";
+	color: #ccc;
+	border-bottom: 1px solid #ccc;
 }
 .social-icons img {
 	width: 30px;
@@ -199,10 +207,15 @@ nav {
 	margin-right: 5px;
 }
 .social-icons > a {
-	float: left;
+	color: #8f8f8f;
+	font: 400 15px "Nunito Sans";
+	display: block;
 }
 .fix:after {
 	content: "";
 	display: block;
 	clear: both;
+}
+.desc-phone, .desc-email, .desc-position {
+	display: inline-block;
 }

@@ -219,3 +219,43 @@ nav {
 .desc-phone, .desc-email, .desc-position {
 	display: inline-block;
 }
+.message-send-hidden {
+	display: none;
+}
+.message-send {
+	display: block;
+	border: 2px solid #10c9c3;
+	border-radius: 5px;
+	position: absolute;
+	top: 25%;
+	z-index: 10;
+	background: #f5f5f5;
+	padding: 25px 40px;
+	box-shadow: 0 0 0 5000px rgba(0,0,0,0.8);
+}
+.message-send-title {
+	margin-top: 0;
+	margin-bottom: 0;
+	font: 600 36px "Montserrat";
+}
+.message-send-description {
+	margin: 15px 0;
+	font: 500 24px "Montserrat";
+}
+.message-send-button {
+	padding: 0;
+	border-radius: 5px;
+	background: #10c9c3;
+}
+.message-send-button > a {
+	color: #fff;
+	font: 500 18px "Montserrat";
+	padding: 15px 50px;
+	display: block;
+}
+.message-send-button > a:hover {
+	text-decoration: none;
+	background: #000;
+	transition: 1s all;
+	border-radius: 5px;
+}

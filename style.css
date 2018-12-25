@@ -292,6 +292,12 @@ nav {
 	font: 600 30px Nunito Sans;
 	color: #ffffff;
 	background-color: rgba(0,0,0,0.7);
+	letter-spacing: 0.5px;
+}
+.online-shop span {
+	display: block;
+	margin-top: -50px;
+	font: 500 16px Nunito Sans;
 }
 .taxgig a:hover, .online-shop a:hover {
 	text-decoration: none;
@@ -302,6 +308,6 @@ nav {
 	transition: 0.5s;
 }
 .online-shop .online-shop-img {
-	background: url(images/shopping.jpg) 50% 50% no-repeat;
+	background: url(images/Shopping.jpg) 50% 50% no-repeat;
 	background-size: 100%;
 }
